@@ -1,0 +1,39 @@
+1528290610935	geckodriver	INFO	geckodriver 0.20.1
+1528290610944	geckodriver	INFO	Listening on 127.0.0.1:58227
+1528290613957	mozrunner::runner	INFO	Running command: "E:\\work\\ruanjian\\firefox.exe" "-marionette" "-profile" "C:\\Users\\eago\\AppData\\Local\\Temp\\rust_mozprofile.1N6BBSWvkguc"
+Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
+1528290616145	Marionette	INFO	Listening on port 58242
+1528290617076	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 24360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+[Parent 24360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[Parent 24360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 215[Parent 24360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+pc_channel_win.cc, line 346
+[Child 19496, Chro[Parent 19556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+pc_channel_win.cc, line 346
+[Ch[GPU 17868, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+e] Error: Channel closing: too late to send/recv, messages will be lost
+
+in.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
