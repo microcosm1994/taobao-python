@@ -8,9 +8,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pyExcelerator import *
 
-# 打开浏览器
-
 result = []
+# 打开浏览器
 driver = webdriver.Firefox()
 keyword = raw_input('Please enter key words:')
 if keyword != '':
@@ -31,8 +30,6 @@ if keyword != '':
             time.sleep(3)
             num += 1
             print(num)
-            # # 打开爬取页面
-            # driver.get(driver.current_url)
             # 隐形等待，最长等待3秒
             driver.implicitly_wait(3)
             # 拖动到页面最底部，=0为拖动到页面最顶部
@@ -57,9 +54,9 @@ if keyword != '':
                         data['url'] = item.select('.ctx-box .row-2 a')[0]['href']
                     result.append(data)
                 print(len(result))
-                if num > 1:
-                    break
                 if nextbtn:
+                    if num > 100:
+                        break
                     nextbtn.click()
                 else:
                     break
