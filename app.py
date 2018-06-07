@@ -11,9 +11,11 @@ from pyExcelerator import *
 result = []
 # 打开浏览器
 driver = webdriver.Firefox()
+print(u'正在打开浏览器')
 keyword = raw_input('Please enter key words:')
 if keyword != '':
     URL = 'https://www.taobao.com'
+    print(u'正在打开爬取页面')
     # 打开爬取页面
     driver.get(URL)
     try:
@@ -27,9 +29,9 @@ if keyword != '':
         driver.find_element_by_class_name('btn-search').click()
         num = 0
         while True:
-            time.sleep(3)
+            time.sleep(10)
             num += 1
-            print(num)
+            print(u'正在爬取第 %d 页数据' % num)
             # 隐形等待，最长等待3秒
             driver.implicitly_wait(3)
             # 拖动到页面最底部，=0为拖动到页面最顶部
@@ -53,7 +55,7 @@ if keyword != '':
                     if len(item.select('.ctx-box .row-2 a')):
                         data['url'] = item.select('.ctx-box .row-2 a')[0]['href']
                     result.append(data)
-                print(len(result))
+                print(u'已保存 %d 条数据' % len(result))
                 if nextbtn:
                     if num > 100:
                         break
@@ -63,7 +65,16 @@ if keyword != '':
     finally:
         w = Workbook()  # 创建一个工作簿
         ws = w.add_sheet('1')  # 创建一个工作表
+        print(u'正在创建表格文件')
         for j in range(0, 4):  # 控制列
+            if j == 0:  # 第一列
+                print(u'正在写入价格数据')
+            if j == 1:
+                print(u'正在写入商品名称')
+            if j == 2:
+                print(u'正在写入商品地址')
+            if j == 3:
+                print(u'正在写入链接')
             for i, item in enumerate(result):  # 控制行
                 if j == 0:  # 第一列
                     ws.write(i, j, item['price'])
@@ -74,4 +85,6 @@ if keyword != '':
                 if j == 3:
                     ws.write(i, j, item['url'])
         w.save(keyword + '.xls')
+        print(u'正在保存文件')
         driver.quit()
+        print(u'浏览器窗口已关闭，请等待程序自动停止后再关闭。。。。。')

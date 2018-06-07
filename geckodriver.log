@@ -1,39 +1,46 @@
-1528290610935	geckodriver	INFO	geckodriver 0.20.1
-1528290610944	geckodriver	INFO	Listening on 127.0.0.1:58227
-1528290613957	mozrunner::runner	INFO	Running command: "E:\\work\\ruanjian\\firefox.exe" "-marionette" "-profile" "C:\\Users\\eago\\AppData\\Local\\Temp\\rust_mozprofile.1N6BBSWvkguc"
+1528365541631	geckodriver	INFO	geckodriver 0.20.1
+1528365541640	geckodriver	INFO	Listening on 127.0.0.1:62477
+1528365544658	mozrunner::runner	INFO	Running command: "E:\\work\\ruanjian\\firefox.exe" "-marionette" "-profile" "C:\\Users\\eago\\AppData\\Local\\Temp\\rust_mozprofile.ubSNPMPcAJeq"
 Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\eago\AppData\Local\openvr\openvrpaths.vrpath
-1528290616145	Marionette	INFO	Listening on port 58242
-1528290617076	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Parent 24360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528365546365	Marionette	INFO	Listening on port 62491
+1528365546672	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
-[Parent 24360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 3416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Chil[Parent 24360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 21588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 215[Parent 24360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 23856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Chil*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-[GPU 1
+[Parent 23592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 23592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1[Child 25028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 250[Parent 23592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi[GPU 11372, Chrome_C
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-pc_channel_win.cc, line 346
-[Child 19496, Chro[Parent 19556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 18452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1[GPU 
+nel_win.cc, line 346
+[Chi[GPU 244
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-pc_channel_win.cc, line 346
-[Ch[GPU 17868, C
+el_win.cc, line 346
+[Child 14436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 144[GPU 9080, 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-e] Error: Channel closing: too late to send/recv, messages will be lost
-
-in.cc, line 346
-*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-
+9 is not defined
+JavaScript error: https://s.taobao.com/search?data-key=s&data-value=1232&ajax=true&_ksTS=1528354759260_7754&callback=jsonp7755&q=UGG&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306&bcoffset=3&ntoffset=3&p4ppushleft=1%2C48&s=1188, line 3: ReferenceError: jsonp7755 is not defined
+JavaScript error: https://s.taobao.com/search?data-key=s&data-value=1232&ajax=true&_ksTS=1528354763195_7880&callback=jsonp7881&q=UGG&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306&bcoffset=3&ntoffset=3&p4ppushleft=1%2C48&s=1188, line 3: ReferenceError: jsonp7881 is not defined
+JavaScript error: https://s.taobao.com/search?data-key=s&data-value=1232&ajax=true&_ksTS=1528354766822_8006&callback=jsonp8007&q=UGG&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306&bcoffset=3&ntoffset=3&p4ppushleft=1%2C48&s=1188, line 3: ReferenceError: jsonp8007 is not defined
+JavaScript error: https://s.taobao.com/search?data-key=s&data-value=1232&ajax=true&_ksTS=1528354770512_8132&callback=jsonp8133&q=UGG&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306&bcoffset=3&ntoffset=3&p4ppushleft=1%2C48&s=1188, line 3: ReferenceError: jsonp8133 is not defined
+JavaScript error: https://s.taobao.com/search?data-key=s&data-value=1232&ajax=true&_ksTS=1528354774128_8258&callback=jsonp8259&q=UGG&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306&bcoffset=3&ntoffset=3&p4ppushleft=1%2C48&s=1188, line 3: ReferenceError: jsonp8259 is not defined
+[Parent 15608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1528354785325	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1528354785331	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 15608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19488,[Parent 15608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[GPU 2
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
